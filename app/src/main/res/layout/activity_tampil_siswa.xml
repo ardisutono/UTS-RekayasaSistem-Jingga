@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent" android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket" />
+
+        <Spinner
+            android:id="@+id/paket_spinner"
+            android:layout_width="378dp"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Induk" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editNomorInduk"
+            android:enabled="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Siswa" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editNama" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender" />
+
+        <Spinner
+            android:id="@+id/gender_spinner"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempat Lahir" />
+
+        <EditText
+            android:id="@+id/editTempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir" />
+
+        <EditText
+            android:id="@+id/editTglLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:clickable="true"
+            android:focusable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sekolah Asal" />
+
+        <Spinner
+            android:id="@+id/sekolah_spinner"
+            android:layout_width="378dp"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat" />
+
+        <EditText
+            android:id="@+id/editAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Wali" />
+
+        <EditText
+            android:id="@+id/editNamaWali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telepon" />
+
+        <EditText
+            android:id="@+id/editNomorTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus" />
+
+
+    </LinearLayout>
+</ScrollView>
